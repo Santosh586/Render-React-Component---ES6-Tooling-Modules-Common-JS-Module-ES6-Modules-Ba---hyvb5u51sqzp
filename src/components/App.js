@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import "../styles/App.css";
+import React, {Component, useState} from "react";
+import '../styles/App.css';
 
-function App() {
+const App = () => {
   return (
-    <p>
-      Now I can render any React component on any DOM node I want using
-      ReactDOM.render
-    </p>
-  );
+    <div id="main">
+    <p>I am learning React. My life is getting better.</p>
+    </div>
+  )
 }
+
 
 export default App;
